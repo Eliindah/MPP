@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>MPP System</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- MetisMenu CSS -->
+        <link href="../css/metisMenu.min.css" rel="stylesheet">
+
+        <!-- DataTables CSS -->
+        <link href="../css/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+
+        <!-- DataTables Responsive CSS -->
+        <link href="../css/dataTables/dataTables.responsive.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="../css/startmin.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <div id="wrapper">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">MPP System</a>
+                </div>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <ul class="nav navbar-nav navbar-left navbar-top-links">
+                    <li><a href="#"><i class="fa fa-home fa-fw"></i> Website</a></li>
+                </ul>
+                <!-- /.navbar-top-links -->
+
+                <div class="navbar-default sidebar" role="navigation">
+                    <div class="sidebar-nav navbar-collapse">
+                        <ul class="nav" id="side-menu">
+                           
+                            <li>
+                                <a href="index.html" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
+                            </li>
+                            <li>
+                                <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="page-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="page-header">Tables</h1>
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+                    <!-- /.row -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a href="forms.html"><button type="button" style="position: right" class="btn btn-primary">+ Add Data</button></a>
+                               
+                                </div>
+                                <!-- /.panel-heading -->
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                            <thead>
+                                                <tr>
+                                                    <th rowspan=" 3"  style="text-align: center; ">No</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Revise Date</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">NO REQ</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Company</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Group Directorat</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Directorat</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Division</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Dept</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Sup Dept</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Organization Name</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Organization Group Name</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Position</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Location</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Region</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Level</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Group Level</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">EMP Status</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Placement</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Status Store</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Status Sales</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Status Core</th>
+                                                    <th colspan=" 2"  style="text-align: center; ">Education</th>
+                                                    <th colspan=" 3"  style="text-align: center; ">Asset</th>
+                                                    <th rowspan=" 3"  style="text-align: center; ">Existing</th>
+                                                    <th colspan=" 13"  style="text-align: center; ">Estimasi Until Des</th>
+                                                    <th colspan="13"  style="text-align: center; ">Estimasi Year 2023</th>
+                                                </tr>
+                                                 <tr>
+                                                    <th style="text-align: center; ">Degre</th>
+                                                    <th style="text-align: center; ">Major</th>
+                                                    <th style="text-align: center; ">Computer</th>
+                                                    <th style="text-align: center; ">Desk & Chair</th>
+                                                    <th style="text-align: center; ">Note</th>
+                                                    <th style="text-align: center; ">Jan</th>
+                                                    <th style="text-align: center; ">Feb</th>
+                                                    <th style="text-align: center; ">Mar</th>
+                                                    <th style="text-align: center; ">Apr</th>
+                                                    <th style="text-align: center; ">May</th>
+                                                    <th style="text-align: center; ">Jun</th>
+                                                    <th style="text-align: center; ">Jul</th>
+                                                    <th style="text-align: center; ">Aug</th>
+                                                    <th style="text-align: center; ">Sept</th>
+                                                    <th style="text-align: center; ">Oct</th>
+                                                    <th style="text-align: center; ">Nov</th>
+                                                    <th style="text-align: center; ">Des</th>
+                                                    <th style="text-align: center; ">Total Estimasi</th>
+                                                    <th style="text-align: center; ">Jan</th>
+                                                    <th style="text-align: center; ">Feb</th>
+                                                    <th style="text-align: center; ">Mar</th>
+                                                    <th style="text-align: center; ">Apr</th>
+                                                    <th style="text-align: center; ">May</th>
+                                                    <th style="text-align: center; ">Jun</th>
+                                                    <th style="text-align: center; ">Jul</th>
+                                                    <th style="text-align: center; ">Aug</th>
+                                                    <th style="text-align: center; ">Sept</th>
+                                                    <th style="text-align: center; ">Oct</th>
+                                                    <th style="text-align: center; ">Nov</th>
+                                                    <th style="text-align: center; ">Des</th>
+                                                    <th style="text-align: center; ">Total New</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- /.table-responsive -->
+                                    
+                                </div>
+                                <!-- /.panel-body -->
+                            </div>
+                            <!-- /.panel -->
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+                    
+                    <!-- /.row -->
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /#page-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+
+        <!-- jQuery -->
+        <script src="../js/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../js/bootstrap.min.js"></script>
+
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="../js/metisMenu.min.js"></script>
+
+        <!-- DataTables JavaScript -->
+        <script src="../js/dataTables/jquery.dataTables.min.js"></script>
+        <script src="../js/dataTables/dataTables.bootstrap.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="../js/startmin.js"></script>
+
+        <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+        <script>
+            $(document).ready(function() {
+                $('#dataTables-example').DataTable({
+                        responsive: true
+                });
+            });
+        </script>
+
+    </body>
+</html>
